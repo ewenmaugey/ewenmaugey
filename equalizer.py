@@ -121,7 +121,7 @@ def make_frame(frame_index):
 frames = [make_frame(i) for i in range(FRAME_COUNT)]
 
 frames[0].save(
-    "ibiza_dj.gif",
+    "Equalizer.gif",
     save_all=True,
     append_images=frames[1:],
     duration=1000 // FPS,
@@ -129,4 +129,4 @@ frames[0].save(
     optimize=True,
 )
 
-print(f"GIF créé : equalizer.gif ({DURATION_SECONDS} secondes)")
+print(f"GIF créé : Equalizer.gif ({DURATION_SECONDS} secondes)")
