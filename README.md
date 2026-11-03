@@ -1,1 +1,1 @@
-![Égaliseur animé](equalizer.gif)
+![Égaliseur animé](Equalizer.gif)
